@@ -4,9 +4,9 @@ import { Heart, Target, Eye, Users, Award, Sparkles } from 'lucide-react';
 
 const About: React.FC = () => {
   const team = [
-    { name: 'Dr. Ricardo Santos', role: 'Veterinário Chefe', image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=400' },
-    { name: 'Juliana Lima', role: 'Groomer Master', image: 'https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=400' },
-    { name: 'Marcos Oliveira', role: 'Adestrador', image: 'https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=400' },
+    { name: 'Dr. Ricardo Santos', role: 'Veterinário Chefe', image: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=400' },
+    { name: 'Juliana Lima', role: 'Groomer Master', image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400' },
+    { name: 'Marcos Oliveira', role: 'Adestrador', image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400' },
     { name: 'Dra. Ana Paula', role: 'Nutricionista Pet', image: 'https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=400' },
   ];
 
@@ -15,7 +15,7 @@ const About: React.FC = () => {
       {/* Hero */}
       <section className="relative h-[500px] flex items-center overflow-hidden">
         <img 
-          src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&q=80&w=1920" 
+          src="https://images.unsplash.com/photo-1450778869180-41d0601e046e?auto=format&fit=crop&q=80&w=1920" 
           className="absolute inset-0 w-full h-full object-cover"
           alt="About Hero"
         />
@@ -95,7 +95,7 @@ const About: React.FC = () => {
             className="relative"
           >
             <img 
-              src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=800" 
+              src="https://images.unsplash.com/photo-1601758124510-52d02ddb7cbd?auto=format&fit=crop&q=80&w=800" 
               alt="PetPrime Story" 
               className="rounded-[60px] shadow-2xl"
             />

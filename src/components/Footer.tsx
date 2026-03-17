@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { PawPrint, Instagram, Facebook, Twitter, Mail, Phone, MapPin } from 'lucide-react';
+import { Instagram, Facebook, Twitter, Mail, Phone, MapPin } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -9,13 +9,8 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="space-y-6">
-            <Link to="/" className="flex items-center space-x-2">
-              <div className="bg-orange-500 p-2 rounded-xl">
-                <PawPrint className="text-white w-6 h-6" />
-              </div>
-              <span className="text-2xl font-bold text-white tracking-tight">
-                Pet<span className="text-orange-500">Prime</span>
-              </span>
+            <Link to="/" className="flex items-center">
+              <img src="/images/logo.jpg" alt="PetPrime" className="h-12 w-auto object-contain brightness-0 invert" />
             </Link>
             <p className="text-slate-400 leading-relaxed">
               Sua melhor escolha para o cuidado e felicidade do seu pet. Oferecemos produtos premium e serviços especializados com todo o carinho que eles merecem.

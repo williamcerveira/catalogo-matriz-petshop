@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { ShoppingCart, Search, Menu, X, PawPrint } from 'lucide-react';
+import { ShoppingCart, Search, Menu, X } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { motion, AnimatePresence } from 'motion/react';
 
@@ -36,13 +36,8 @@ const Header: React.FC<HeaderProps> = ({ onOpenCart }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 group">
-            <div className="bg-orange-500 p-2 rounded-xl group-hover:bg-orange-600 transition-colors">
-              <PawPrint className="text-white w-6 h-6" />
-            </div>
-            <span className="text-2xl font-bold text-slate-900 tracking-tight">
-              Pet<span className="text-orange-500">Prime</span>
-            </span>
+          <Link to="/" className="flex items-center group">
+            <img src="/images/logo.svg" alt="PetPrime" className="h-14 w-auto object-contain" />
           </Link>
 
           {/* Desktop Navigation */}

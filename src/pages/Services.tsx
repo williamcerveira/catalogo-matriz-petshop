@@ -254,7 +254,7 @@ const Services: React.FC = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1583511655826-05700d52f4d9?auto=format&fit=crop&q=80&w=800" 
+                src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?auto=format&fit=crop&q=80&w=800" 
                 alt="Pet Care" 
                 className="rounded-[40px] shadow-2xl"
               />

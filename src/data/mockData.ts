@@ -9,7 +9,7 @@ export const products: Product[] = [
     animalType: 'Cachorros',
     brand: 'Royal Canin',
     description: 'Ração de alta qualidade para cães adultos de todas as raças. Rica em proteínas e vitaminas essenciais.',
-    image: 'https://images.unsplash.com/photo-1589924691106-073b19f5538d?auto=format&fit=crop&q=80&w=800',
+    image: '/images/product_dog_food.png',
     sku: 'RAC-001',
     technicalInfo: 'Proteína Bruta: 25%, Extrato Etéreo: 12%, Matéria Fibrosa: 3.5%',
     featured: true
@@ -22,7 +22,7 @@ export const products: Product[] = [
     animalType: 'Gatos',
     brand: 'Purina',
     description: 'Sabor irresistível e controle de peso ideal para gatos castrados.',
-    image: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&q=80&w=800',
+    image: '/images/product_cat_food.png',
     sku: 'RAC-002',
     technicalInfo: 'Proteína Bruta: 32%, Extrato Etéreo: 10%',
     featured: true
@@ -35,7 +35,7 @@ export const products: Product[] = [
     animalType: 'Cachorros',
     brand: 'Kong',
     description: 'Ideal para cães que adoram morder. Material atóxico e durável.',
-    image: 'https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&q=80&w=800',
+    image: '/images/product_rubber_bone.png',
     sku: 'BRQ-001'
   },
   {
@@ -46,7 +46,7 @@ export const products: Product[] = [
     animalType: 'Gatos',
     brand: 'Petz',
     description: 'Diversão e conforto para seu gato. Com várias plataformas e sisal para arranhar.',
-    image: 'https://images.unsplash.com/photo-1545249390-6bdfa286032f?auto=format&fit=crop&q=80&w=800',
+    image: '/images/product_cat_tower.png',
     sku: 'ACS-001',
     featured: true
   },
@@ -58,7 +58,7 @@ export const products: Product[] = [
     animalType: 'Cachorros',
     brand: 'Pet Society',
     description: 'Limpeza suave sem irritar a pele do seu pet. Fragrância agradável.',
-    image: 'https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?auto=format&fit=crop&q=80&w=800',
+    image: '/images/product_shampoo.png',
     sku: 'HIG-001'
   },
   {
@@ -69,7 +69,7 @@ export const products: Product[] = [
     animalType: 'Cachorros',
     brand: 'Zee.Dog',
     description: 'Segurança e estilo para os passeios. Disponível em várias cores.',
-    image: 'https://images.unsplash.com/photo-1544568100-847a948585b9?auto=format&fit=crop&q=80&w=800',
+    image: '/images/product_collar.png',
     sku: 'ACS-002'
   },
   {
@@ -80,7 +80,7 @@ export const products: Product[] = [
     animalType: 'Cachorros',
     brand: 'Petz',
     description: 'O clássico que nunca falha. Horas de diversão garantida.',
-    image: 'https://images.unsplash.com/photo-1591768793355-74d7c836038c?auto=format&fit=crop&q=80&w=800',
+    image: '/images/product_tennis_balls.png',
     sku: 'BRQ-002'
   },
   {
@@ -91,7 +91,7 @@ export const products: Product[] = [
     animalType: 'Gatos',
     brand: 'Petz',
     description: 'O descanso que seu pet merece. Formato anatômico e tecido premium.',
-    image: 'https://images.unsplash.com/photo-1591769225440-811ad7d6eca3?auto=format&fit=crop&q=80&w=800',
+    image: '/images/product_pet_bed.png',
     sku: 'ACS-003',
     featured: true
   },
@@ -103,7 +103,7 @@ export const products: Product[] = [
     animalType: 'Cachorros',
     brand: 'Premier',
     description: 'Livre de corantes e conservantes. O agrado perfeito.',
-    image: 'https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=800',
+    image: '/images/product_chicken_treats.png',
     sku: 'RAC-003'
   },
   {
@@ -114,7 +114,7 @@ export const products: Product[] = [
     animalType: 'Cachorros',
     brand: 'Pet Society',
     description: 'Mantenha a saúde bucal do seu melhor amigo em dia.',
-    image: 'https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&q=80&w=800',
+    image: '/images/product_dog_toothbrush.png',
     sku: 'HIG-002'
   },
   {
@@ -125,7 +125,7 @@ export const products: Product[] = [
     animalType: 'Cachorros',
     brand: 'Petz',
     description: 'Higiênico e durável. Base de borracha para não escorregar.',
-    image: 'https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?auto=format&fit=crop&q=80&w=800',
+    image: '/images/product_steel_bowl.png',
     sku: 'ACS-004'
   },
   {
@@ -136,7 +136,7 @@ export const products: Product[] = [
     animalType: 'Gatos',
     brand: 'Petz',
     description: 'Estimule o instinto caçador do seu felino.',
-    image: 'https://images.unsplash.com/photo-1516750105099-4b8a83e217ee?auto=format&fit=crop&q=80&w=800',
+    image: '/images/product_feather_wand.png',
     sku: 'BRQ-003'
   },
   {
@@ -147,7 +147,7 @@ export const products: Product[] = [
     animalType: 'Cachorros',
     brand: 'Pet Society',
     description: 'Alta absorção e controle de odores para o dia a dia.',
-    image: 'https://images.unsplash.com/photo-1583511655826-05700d52f4d9?auto=format&fit=crop&q=80&w=800',
+    image: '/images/product_hygiene_pad.png',
     sku: 'HIG-003'
   },
   {
@@ -158,7 +158,7 @@ export const products: Product[] = [
     animalType: 'Cachorros',
     brand: 'Petz',
     description: 'Segurança total para viagens e idas ao veterinário.',
-    image: 'https://images.unsplash.com/photo-1591768575198-88dac53fbd0a?auto=format&fit=crop&q=80&w=800',
+    image: '/images/product_transport_crate.png',
     sku: 'ACS-005'
   },
   {
@@ -169,7 +169,7 @@ export const products: Product[] = [
     animalType: 'Peixes',
     brand: 'Poytara',
     description: 'Nutrição completa para realçar as cores dos seus peixes.',
-    image: 'https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1520301255226-bf5f144451c1?auto=format&fit=crop&q=80&w=800',
     sku: 'RAC-004'
   }
 ];
@@ -180,21 +180,21 @@ export const services: Service[] = [
     name: 'Banho e Tosa',
     description: 'Cuidado completo com a higiene e estética do seu pet. Utilizamos produtos premium.',
     priceBase: 80.00,
-    image: 'https://images.unsplash.com/photo-1516733725897-1aa73b87c8e8?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 's2',
     name: 'Consulta Veterinária',
     description: 'Atendimento especializado para garantir a saúde e bem-estar do seu amigo.',
     priceBase: 150.00,
-    image: 'https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 's3',
     name: 'Hotelzinho Pet',
     description: 'Hospedagem com carinho, segurança e muita diversão enquanto você viaja.',
     priceBase: 120.00,
-    image: 'https://images.unsplash.com/photo-1601758228041-f3b2795255f1?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 's4',

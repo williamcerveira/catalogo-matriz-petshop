@@ -17,21 +17,21 @@ const Home: React.FC = () => {
     {
       title: 'Ofertas de Verão',
       subtitle: 'Até 30% de desconto em acessórios de passeio.',
-      image: 'https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&q=80&w=1920',
+      image: '/images/banner_summer.png',
       cta: 'Ver Ofertas',
       link: '/produtos?categoria=Acessórios'
     },
     {
       title: 'Banho e Tosa Premium',
       subtitle: 'Seu pet cheiroso e relaxado com nossos especialistas.',
-      image: 'https://images.unsplash.com/photo-1516733725897-1aa73b87c8e8?auto=format&fit=crop&q=80&w=1920',
+      image: '/images/banner_grooming.png',
       cta: 'Agendar Agora',
       link: '/servicos'
     },
     {
       title: 'Novidades em Rações',
       subtitle: 'As melhores marcas mundiais agora na PetPrime.',
-      image: 'https://images.unsplash.com/photo-1585837509701-3cd2799bb1f6?auto=format&fit=crop&q=80&w=1920',
+      image: '/images/banner_food.png',
       cta: 'Confira',
       link: '/produtos?categoria=Rações'
     }
